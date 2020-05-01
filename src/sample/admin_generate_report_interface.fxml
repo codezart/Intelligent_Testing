@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="767.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="26.0" layoutY="14.0" text="ADMIN" />
+      <Button layoutX="14.0" layoutY="61.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="97.0" text="dashboard" />
+      <Button layoutX="14.0" layoutY="264.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="97.0" text="Questions" />
+      <Button layoutX="14.0" layoutY="162.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="97.0" text="Reports" />
+      <Label layoutX="325.0" layoutY="17.0" prefHeight="37.0" prefWidth="82.0" text="Reports">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="149.0" layoutY="83.0" promptText="From" />
+      <DatePicker layoutX="457.0" layoutY="83.0" promptText="To" />
+      <ComboBox layoutX="149.0" layoutY="169.0" prefWidth="150.0" promptText="Report Type" />
+      <Button layoutX="551.0" layoutY="162.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="123.0" text="SUBMIT" />
+      <TableView layoutX="150.0" layoutY="237.0" prefHeight="200.0" prefWidth="539.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button layoutX="14.0" layoutY="364.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="97.0" text="Users" />
+   </children>
+</Pane>

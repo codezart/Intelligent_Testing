@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="101.0" layoutY="219.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="126.0" text="Profile" />
+      <Button layoutX="310.0" layoutY="219.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="126.0" text="Take Test" />
+      <Button layoutX="513.0" layoutY="219.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="126.0" text="View Reports" />
+      <Label layoutX="21.0" layoutY="21.0" text="Welcome, USER's NAME" />
+   </children>
+</Pane>

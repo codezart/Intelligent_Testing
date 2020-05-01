@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="294.0" layoutY="49.0" text="Create a Question" />
+      <Label layoutX="73.0" layoutY="105.0" text="Note:  Include three underscores &quot;___&quot; if you want there to be a text field for fill in the blank." />
+      <Label layoutX="73.0" layoutY="372.0" text="Answer 1" />
+      <TextField layoutX="173.0" layoutY="367.0" prefHeight="31.0" prefWidth="399.0" />
+      <Label layoutX="73.0" layoutY="153.0" text="Enter Question:" />
+      <TextArea layoutX="184.0" layoutY="153.0" prefHeight="81.0" prefWidth="410.0" />
+      <ComboBox layoutX="184.0" layoutY="272.0" prefWidth="150.0" promptText="No. of answers" />
+   </children>
+</Pane>

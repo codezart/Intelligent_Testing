@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="696.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="41.0" layoutY="41.0" text="Welcome, USER's NAME" />
+      <TableView layoutX="36.0" layoutY="102.0" prefHeight="324.0" prefWidth="624.0">
+         <columns>
+            <TableColumn prefWidth="507.0" text="Question" />
+            <TableColumn prefWidth="116.0" text="Score" />
+         </columns>
+      </TableView>
+   </children>
+</Pane>

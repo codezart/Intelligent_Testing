@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="529.0" prefWidth="809.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="323.0" layoutY="23.0" text="Choose a Question Type" />
+      <Button layoutX="282.0" layoutY="178.0" mnemonicParsing="false" text="MCQ (Multiple choice Querstions)" />
+      <Button layoutX="300.0" layoutY="234.0" mnemonicParsing="false" text="CheckBox (multiple answers)" />
+      <Button layoutX="341.0" layoutY="286.0" mnemonicParsing="false" text="Fill in the blanks" />
+   </children>
+</Pane>

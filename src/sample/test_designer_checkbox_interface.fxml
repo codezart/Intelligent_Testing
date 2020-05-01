@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="616.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="43.0" layoutY="370.0" text="Answer 4" />
+      <TextField layoutX="153.0" layoutY="365.0" prefHeight="31.0" prefWidth="392.0" />
+      <Label layoutX="43.0" layoutY="271.0" text="Answer 2" />
+      <TextField layoutX="153.0" layoutY="316.0" prefHeight="31.0" prefWidth="392.0" />
+      <Label layoutX="43.0" layoutY="321.0" text="Answer 3" />
+      <TextField layoutX="153.0" layoutY="266.0" prefHeight="31.0" prefWidth="392.0" />
+      <TextField layoutX="152.0" layoutY="215.0" prefHeight="31.0" prefWidth="392.0" />
+      <Label layoutX="42.0" layoutY="220.0" text="Answer 1" />
+      <TextArea layoutX="152.0" layoutY="104.0" prefHeight="81.0" prefWidth="410.0" />
+      <Label layoutX="41.0" layoutY="104.0" text="Enter Question:" />
+      <Label layoutX="284.0" layoutY="39.0" text="Create a Question" />
+      <Label layoutX="43.0" layoutY="433.0" text="Choose Correct Answer:" />
+      <CheckBox layoutX="252.0" layoutY="433.0" mnemonicParsing="false" text="Answer 1" />
+      <CheckBox layoutX="418.0" layoutY="480.0" mnemonicParsing="false" text="Answer 4" />
+      <CheckBox layoutX="252.0" layoutY="480.0" mnemonicParsing="false" text="Answer 3" />
+      <CheckBox layoutX="418.0" layoutY="433.0" mnemonicParsing="false" text="Answer 2" />
+      <Button layoutX="513.0" layoutY="545.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="135.0" text="Add Question" />
+      <Button layoutX="35.0" layoutY="545.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="135.0" text="Cancel" />
+   </children>
+</Pane>

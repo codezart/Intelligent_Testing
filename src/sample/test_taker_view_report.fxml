@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="692.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="31.0" layoutY="31.0" text="Welcome, USER's NAME" />
+      <TableView layoutX="31.0" layoutY="158.0" prefHeight="290.0" prefWidth="624.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Test " />
+            <TableColumn prefWidth="128.0" text="Time taken" />
+            <TableColumn prefWidth="118.0" text="Test Date" />
+            <TableColumn prefWidth="149.0" text="Score" />
+            <TableColumn prefWidth="150.0" text="Test Category" />
+        </columns>
+      </TableView>
+      <Button layoutX="558.0" layoutY="26.0" mnemonicParsing="false" text="Dashboard" />
+      <Label layoutX="31.0" layoutY="102.0" text="Number of tests: ##" />
+      <Label layoutX="294.0" layoutY="102.0" text="Test Streak: ##" />
+      <Label layoutX="512.0" layoutY="102.0" text="Avg Score: ##" />
+   </children>
+</Pane>
