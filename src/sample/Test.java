@@ -2,7 +2,7 @@ package sample;
 public class Test<date> {
     private int testID;
     private int testTakerID;
-    private Question question_List:
+    private Question question_List;
     private double score;
     private int time;
     private int status;

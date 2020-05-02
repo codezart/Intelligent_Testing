@@ -29,7 +29,7 @@ public class TestDesigner extends User{
         this.reputation_value = reputation_value;
     }
     public void setModeled_questions_list( Question question){
-        this.modeled_questions_list.add(question);
+      /*  this.modeled_questions_list.add(question);*/
         setNum_modeled_questions();
     }
 }

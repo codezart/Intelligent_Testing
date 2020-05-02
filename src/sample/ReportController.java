@@ -8,6 +8,7 @@ public class ReportController{
     }
 
     public void setContraints(String[] contraints) {
+
         this.contraints = contraints;
     }
 
@@ -17,7 +18,7 @@ public class ReportController{
     }
 
     public String[] getReport(){
-
+    return null;
     }
     public void retrieveFromDB( String constraint){
 

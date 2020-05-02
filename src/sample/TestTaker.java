@@ -36,8 +36,8 @@ public class TestTaker extends User {
         this.total_tests_taker = total_tests_taker;
     }
 
-    public void addtest_list(Test individualTest){
+   /* public void addtest_list(Test individualTest){
         this.test_list.add(individualTest);
     }
-
+*/
 }

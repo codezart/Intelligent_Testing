@@ -24,6 +24,6 @@ public class Admin extends User {
 
     }
     public int getReportList(){
-
+    return 0;
     }
 }
