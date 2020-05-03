@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import java.lang.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="654.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="654.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Fxml_folder.MCQ_Controller">
    <children>
+      <TextField fx:id="ans1" layoutX="142.0" layoutY="205.0" prefHeight="31.0" prefWidth="392.0" />
       <Label layoutX="240.0" layoutY="33.0" text="Create a Question" />
       <Label layoutX="31.0" layoutY="94.0" text="Enter Question:" />
-      <TextArea layoutX="142.0" layoutY="94.0" prefHeight="81.0" prefWidth="410.0" />
+      <TextArea fx:id="Question" layoutX="142.0" layoutY="94.0" prefHeight="81.0" prefWidth="410.0" />
       <Label layoutX="32.0" layoutY="210.0" text="Answer 1" />
-      <TextField layoutX="142.0" layoutY="205.0" prefHeight="31.0" prefWidth="392.0" />
-      <TextField layoutX="142.0" layoutY="259.0" prefHeight="31.0" prefWidth="392.0" />
+      <TextField fx:id="ans2" layoutX="142.0" layoutY="259.0" prefHeight="31.0" prefWidth="392.0" />
       <Label layoutX="32.0" layoutY="311.0" text="Answer 3" />
-      <TextField layoutX="142.0" layoutY="306.0" prefHeight="31.0" prefWidth="392.0" />
+      <TextField fx:id="ans3" layoutX="142.0" layoutY="306.0" prefHeight="31.0" prefWidth="392.0" />
       <Label layoutX="32.0" layoutY="264.0" text="Answer 2" />
-      <TextField layoutX="142.0" layoutY="356.0" prefHeight="31.0" prefWidth="392.0" />
+      <TextField fx:id="ans4" layoutX="142.0" layoutY="356.0" prefHeight="31.0" prefWidth="392.0" />
       <Label layoutX="32.0" layoutY="361.0" text="Answer 4" />
       <Label layoutX="32.0" layoutY="427.0" text="Correct Answer:" />
-      <ComboBox layoutX="165.0" layoutY="422.0" prefWidth="150.0" promptText="Select Answer" />
-      <Button layoutX="477.0" layoutY="499.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="135.0" text="Add Question" />
+      <ComboBox fx:id="Correct" layoutX="165.0" layoutY="422.0" prefWidth="150.0" promptText="Select Answer" />
+      <Button fx:id="addBtn" layoutX="477.0" layoutY="499.0" mnemonicParsing="false" onAction="#addQuestion" prefHeight="50.0" prefWidth="135.0" text="Add Question" />
       <Button layoutX="32.0" layoutY="499.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="135.0" text="Cancel" />
    </children>
 </Pane>
